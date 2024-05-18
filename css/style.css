@@ -1,0 +1,250 @@
+body {
+  font-family: Vazirmatn, sans-serif;
+}
+
+.header-icon {
+  font-family: "squimpy", sans-serif;
+  font-size: 28px;
+}
+
+.section1 {
+  background-image: url("../img/background.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header-list ul li {
+  font-size: 22px;
+  font-weight: 600;
+}
+.header-list ul li:hover {
+  color: orange;
+  cursor: pointer;
+}
+.headerx {
+  display: none;
+}
+.fa-bars {
+  font-size: 22px;
+  display: none;
+}
+.headerx:hover,
+.fa-bars:hover {
+  color: orange;
+  cursor: pointer;
+}
+.open {
+  margin-right: 0 !important;
+}
+.dark {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  position: absolute;
+  display: none !important;
+}
+.darkBlock {
+  display: block !important;
+}
+.shadow {
+  background-color: white;
+}
+
+.img-sec1 {
+  height: 80vh;
+}
+
+.section2 {
+  background-image: url("../img/intro.png");
+  width: 100%;
+  padding: 20px 0px;
+}
+.mahsool {
+  cursor: pointer;
+}
+.mahsool:hover .img-sec2 {
+  transform: scale(1.3);
+  transition: all 1s;
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+.img-sec2 {
+  width: 100%;
+  height: 100%;
+}
+.aa {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.bb {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-btn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 30px;
+}
+.swiper-btn span {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  padding: 8px;
+  justify-content: center;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+}
+.swiper-btn span:hover {
+  cursor: pointer;
+}
+
+
+.line-clamp{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 12px;
+  color: gray;
+}
+.card-img-top{
+  height: 300px;
+}
+
+.section4{
+background-image: url('../img/intro.png');
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+footer{
+  background-color: #12042b;
+  width: 100%;
+}
+.footr-img {
+  background-image: url('../img/topbg5.webp');
+  width: 100%;
+  height:  93px;
+}
+
+footer .ul {
+  list-style: none;
+}
+footer .ul li {
+  padding-bottom: 22px;
+}
+footer .ul li:hover {
+  padding-right: 12px;
+  color: orange;
+cursor: pointer;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+.footer-icon i{
+  font-size: 32px;
+  padding: 10px;
+}
+.footer-icon i:hover{
+  color: orange;
+  cursor: pointer;
+
+}
+@media screen and (min-width: 751px) and (max-width: 880px) {
+  .header-list ul li {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .header-list {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #12042b;
+    color: white;
+    height: 100%;
+    width: 250px;
+    z-index: 999;
+    margin-right: -250px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+  }
+  .header-list ul {
+    display: inline-block !important;
+    margin-top: 20px;
+  }
+  .header-list ul li {
+    padding-top: 40px;
+  }
+  .headerx {
+    display: block;
+    font-size: 22px;
+    position: absolute;
+    top: 2;
+    right: 200px;
+  }
+  .fa-bars {
+    display: block;
+  }
+ 
+}
