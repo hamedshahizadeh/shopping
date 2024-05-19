@@ -26,8 +26,20 @@ window.addEventListener('scroll', function() {
 });
 
 let swiper = new Swiper(mySwiper, {
-  slidesPerView: 3,
-  spaceBetween: 30,
+  breakpoints:{
+    640:{
+      slidesPerView: 2,
+  spaceBetween: 15,
+    },
+    780:{
+      slidesPerView: 3,
+  spaceBetween: 20,
+    },
+    1024:{
+      slidesPerView: 4,
+  spaceBetween:20,
+    },
+  },
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
